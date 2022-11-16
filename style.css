@@ -1,0 +1,451 @@
+body{
+    font-family: 'Montserrat';
+}
+.bg{
+    background: url(bg.svg);
+    position: absolute;
+    width: 1920px;
+    height: 1030px;
+    left: 0px;
+    top: 0px;
+}
+#logo{
+    position: absolute;
+    left: 18.39%;
+    right: 70.37%;
+    top: 0.41%;
+    bottom: 98.81%;
+    width:215px;
+    height:49px;
+    
+}
+#menu{
+    width:30px;
+    height:27px;
+    position: absolute;
+    left: 80%;
+    right: 10%;
+    top: 1%;
+    bottom: 5%;
+}
+.center{
+    position: absolute;
+    width: 765px;
+    height: 132px;
+    left: 578px;
+    top: 250px;
+
+}
+.heading{
+    position: absolute;
+    width: 765px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 74px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #212733;
+}
+.subtitle{
+    position: absolute;
+    width: 237px;
+    height: 22px;
+    left: 264px;
+    top: 110px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 42px;
+}
+.hbut{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 30px;
+    gap: 19px;
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 821px;
+    top: 442px;
+    border: 1px solid #000000;
+    background-color:transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.imgabout{
+    position: absolute;
+    width: 960px;
+    height: 940px;
+    left: 0px;
+    top: 1030px;
+}
+.about_us{
+    text-align: right;
+    position: absolute;
+    width: 500px;
+    height: 391px;
+    left: 1067px;
+    top: 1305px;
+}
+#about{
+    position: absolute;
+    width: 311px;
+    height: 59px;
+    left: 189px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+}
+.p_about{
+    position: absolute;
+    width: 500px;
+    height: 48px;
+    left: 0px;
+    top: 119px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #606060;
+}
+.circles{
+    
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1767px;
+    top: 1418px;
+}
+.circlesp{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1414px;
+    top: 338px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background:#313035;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.circlew{
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border:2px solid #8D8C92;
+    border-radius: 11px;
+    margin-bottom: 15px;
+}
+.porfolio{
+    position: absolute;
+    width: 1429px;
+    height: 893px;
+    top:2060px;
+    left:353px;
+}
+.imgport{
+    width: 1214px;
+    height: 764px;
+    margin:129px 353px 0px 0px;
+    background: url(portfolio.svg);
+}
+.butport{
+    margin-top:226px;
+    margin-left: 920px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 30px;
+    gap: 19px;
+    width: 229px;
+    height: 55px;
+    border: 1px solid #000000;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.portfolioh1{
+    margin:0px 677px 70px 463px;
+    text-align: right;
+    width: 289px;
+    height: 59px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+}
+.offer{
+    position: absolute;
+    width: 1215px;
+    height: 949px;
+    left: 0px;
+    top: 2953px;
+    background: #1A1F25;
+    padding: 90px 353px;
+}
+#offersh1{
+    position: absolute;
+    width: 498px;
+    height: 59px;
+    left: 711px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color:#ffffff;
+    
+}
+.table{
+    margin-top: 80px;
+    border-collapse: collapse;
+    width: 1215px;
+    height: 689px;
+    border-color:#595959;
+    color:#ffffff;
+}
+td{
+    text-align: center;
+    width:243px;
+    height:210px;
+}
+.offersp{
+    margin-left:21px;
+    height: 48px;
+    width: 203px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.offersbut{
+    margin-left:21px;
+    height: 60px;
+    width: 203px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:14px 30px;
+}
+.advantagebg{
+    background: url(advantage/advantagebg.svg);
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+    left: 0px;
+    top: 3902px;
+}
+.advantage{
+    margin: 336px 456px 209px 352px;
+}
+.advh1{
+    margin-bottom: 90px;
+    width: 538px;
+    height: 59px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: right;
+}
+.advrow1{
+    display: flex;
+    flex-direction: row;
+    width:1112px;
+}
+.advtd{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width:552px;
+    height: 103px;
+}
+.advtr{
+    max-width:1112px;
+    height: 103px;
+}
+.advp{
+    width: 430px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: left;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.application{
+    background: url(application.svg);
+    position: absolute;
+    top: 4802px;
+    left: 0px;
+    width: 935px;
+    height: 940px;
+}
+.special_offer{
+    position: absolute;
+    width: 985px;
+    height: 940px;
+    left: 935px;
+    top: 4802px;
+    background: #000201;
+}
+.ah1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin: 173px 407px 80px 353px;
+}
+.inputs{
+    height: 455px;
+    width: 509px;
+    margin: 80px 73px 173px 353px;
+}
+.input_hr{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+input{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+}
+.send{
+    margin-top: 80px;
+    width: 180px;
+    height: 55px;
+    padding: 17.5px 21.5px 17.5px 30px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: left;
+}
+.applicationp{
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.areap{
+    height: 90px;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+}
+.so_h1{
+    margin: 173px 353px 138px 135px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.border{
+    margin: -286px 0 0 58px;
+    width: 78px;
+    height: 39px;
+    border: 1px solid #FFFFFF;
+    border-top: 1px solid #000201;
+    border-radius: 0 0 78px 78px;
+    background-color: #000201;
+}
+.border_block{
+    width: 194px;
+    height: 284px;
+    border: 1px solid #FFFFFF;
+}
+#block1{
+    margin: 138px 0px 286px 30px;
+    box-sizing: border-box;
+}
+#block2{
+    margin: 138px 10px 286px 10px;
+    box-sizing: border-box;
+}
+.borderm{
+    margin: -286px 0 0 58px;
+    width: 78px;
+    height: 39px;
+    border: 0;
+    border-top: 1px solid #000201;
+    border-radius: 0 0 78px 78px;
+    background-color: #000201;
+}
+.border_blockm{
+    width: 194px;
+    height: 284px;
+    border: 0;
+    background: linear-gradient(180deg, #61B3C9 0%, #074D88 100%);
+}
+#block3{
+    box-sizing: border-box;
+    margin: 138px 353px 286px 0px;
+}
+#blocks{
+    display: inline-flex;
+    flex-direction: row;
+}
+.block_h3{
+    margin: 59px 37px 15px 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.price{
+    height: 52px;
+    width: 100%;
+}
+.del{
+    text-decoration: line-through;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+}
+.prmain{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
